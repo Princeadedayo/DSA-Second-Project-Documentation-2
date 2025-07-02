@@ -21,3 +21,22 @@ analyze performance ratings as they correlate with gender, moving on to a detail
 salary structures and pay gaps. Although a bonus calculation is mentioned in the case
 study, the absence of a bonus rule dataset prevents us from performing this part of the
 analysis. The report concludes with key .
+# Data Cleaning and Preparation
+A rigorous EDA begins with thoroughly cleaning the data to ensure that subsequent
+analyses are accurate and reective of the true state of the organization. The cleaning
+process was guided by the following specic tasks:
+1. Handling Missing Gender Values:
+Many employee records contained blank entries in the Gender column. To provide a
+unied approach to analysis, all missing or blank values have been recategorized under
+the new generic status “Unspecied.” This categorization helps in maintaining
+consistency in subsequent counts and comparisons while ensuring that the inuence
+of missing data is acknowledged.
+2. Filtering Out Employees with Missing Salary:
+Employees who do not have a recorded salary—most likely representing former
+employees or incomplete records—were removed. Salary being a critical quantitative
+measure, its absence could otherwise lead to inaccurate computations in salary
+distribution and pay gap analyses.
+3. Removing Incomplete Departmental Data:
+There were multiple records in which the Department eld was recorded as “NULL.”
+Since department afliation plays a key role in understanding gender distributions and
+compensation patterns, these rows were eliminated to avoid skewing any departmentspecic insights.
