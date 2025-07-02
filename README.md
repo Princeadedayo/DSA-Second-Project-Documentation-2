@@ -43,3 +43,22 @@ compensation patterns, these rows were eliminated to avoid skewing any departmen
 ![image](https://github.com/user-attachments/assets/bc2f9b67-dbe7-4142-b683-791f995eb764)
 ![image](https://github.com/user-attachments/assets/bfcdce00-82b2-4039-bf41-9506a026070b)
 
+## Gender Distribution Analysis
+Understanding gender distribution is pivotal for identifying discrepancies in workforce
+composition, a key factor for both internal HR policies and external regulatory compliance.
+This section examines the overall gender distribution, how it varies by region, and its
+manifestation in different departments.
+3.1 Overall Gender Distribution
+The analysis begins with a count of all unique employee records after the data cleaning
+procedure. The Gender column now contains three categories: "Male," "Female," and
+"Unspecied." Although male and female genders are explicitly recorded, a signicant
+proportion of employees initially had missing Gender data. By assigning these records to
+the “Unspecied” category, the complete picture of gender distribution is made available.
+Some key observations from the overall gender counts include:
+A considerable number of employee records now fall in the “Unspecied” category,
+highlighting potential issues with data collection or employees’ reluctance to disclose
+personal information.
+The counts for “Male” and “Female” provide a basis for calculating percentages. These
+percentages are essential for comparing departmental and regional distributions later in
+the analysis.
+
