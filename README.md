@@ -40,3 +40,6 @@ distribution and pay gap analyses.
 There were multiple records in which the Department eld was recorded as “NULL.”
 Since department afliation plays a key role in understanding gender distributions and
 compensation patterns, these rows were eliminated to avoid skewing any departmentspecic insights.
+![image](https://github.com/user-attachments/assets/bc2f9b67-dbe7-4142-b683-791f995eb764)
+![image](https://github.com/user-attachments/assets/bfcdce00-82b2-4039-bf41-9506a026070b)
+
