@@ -221,5 +221,19 @@ higher average salaries.
 • The absence of bonus rule data limits the full exploration of total compensation
 disparities; therefore, further analysis including bonus data is recommended.
 
-
- 
+## Final Remarks
+This report provides a comprehensive HR analytics framework for assessing gender
+distribution and pay gaps in a manufacturing environment. By following robust data
+cleaning, visualization, and analysis practices as outlined above, organizations can identify
+key areas of disparity and work proactively towards fostering an equitable workplace.
+Although the present study is limited by the absence of bonus rule data, the insights gained
+from base salary and performance ratings analysis lay the groundwork for future, more
+comprehensive compensation reviews.
+A deep-dive continuous monitoring strategy is recommended, where periodic EDA updates
+and iterative renements can help the organization achieve sustained improvements in
+gender equity and pay fairness. The methodologies applied herein can also be adapted to
+other datasets or sectors, thereby serving as a model for data-driven human resource
+optimization in today’s competitive business environment.
+By investing in systematic data collection, rigorous analysis, and proactive policy
+adjustments, manufacturing organizations can not only meet regulatory standards but also
+build diverse, high-performing teams that drive innovation and long-term success.
