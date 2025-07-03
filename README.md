@@ -140,7 +140,6 @@ A box plot was generated to compare salary ranges among the gender categories. T
 visualization clearly marked outliers, interquartile ranges, and median salaries.
 Observations from the box plot include differences in median salary values, which may
 signal systematic disparities.
-
 5.2 Salary Bands and Regional Distributions
 To further analyze salary structures, salaries were grouped into $10,000 bands. This
 approach not only highlights pay distribution but also enables a direct assessment of how
@@ -148,7 +147,6 @@ many employees fall below the regulatory benchmark of $90,000 in each region.
 The process involved creating numeric intervals such as:
 $20,000–$29,999
 $30,000–$39,999
-
 $110,000–$119,999
 By mapping each employee’s salary to one of these bands, we derived the frequency of
 employees per band for every region. 
@@ -173,36 +171,53 @@ A series of side-by-side bar charts were constructed to compare male and female 
 statistics. One chart displays average salaries by department, while another shows these
 averages by region.
 
-7. Conclusions and Recommendations
+# Conclusions and Recommendations
+
 This detailed EDA of HR analytics in a manufacturing company has provided several key
 insights into gender distribution, performance ratings, and salary structures. The analysis
 not only reveals the current state of affairs but also highlights areas for potential
-organizational improvement. A summary of the main insights is provided below:
-Data Cleaning Imperative:
+organizational improvement. 
+A summary of the main insights is provided below:
+
+### Data Cleaning Imperative:
+
 • Missing or blank Gender values have been systematically recategorized as “Unspecied”
 to ensure consistency.
+
 • Records with missing Salary or Department data (marked as “NULL”) were removed,
 assuring that further analysis is based on complete, reliable information.
+
 ## Gender Distribution Observations:
+
 • Overall gender counts indicate a signicant presence of “Unspecied” entries,
 suggesting a need for improved data collection protocols.
+
 • Analysis by region shows variations in gender composition, which may be inuenced by regional labor market conditions or recruitment practices.
+
 • Departmental breakdown indicates that certain functional areas exhibit imbalances,
 possibly reecting traditional gender roles within the organization.
 ## Performance Ratings by Gender:
+
 • While aggregate performance ratings are largely similar between male and female
 employees, slight differences—observable in some regions and departments—highlight
 the need for further qualitative review of evaluation criteria.
+
 • An objective and consistent performance evaluation system is paramount to ensure
 fairness and reduce any unintentional bias.
+
 ## Salary Structure and Gender Pay Gap:
+
 • Descriptive salary statistics reveal that a non-negligible number of employees earn
 below the mandated minimum of $90,000.
+
 • Salary bands, segmented in $10,000 intervals, demonstrate that a considerable
 proportion of employees fall within lower salary ranges, particularly in certain regions.
+
+
 • Detailed departmental and regional comparisons point to a modest but consistent pay
 gap between male and female employees, with male employees generally receiving
 higher average salaries.
+
 • The absence of bonus rule data limits the full exploration of total compensation
 disparities; therefore, further analysis including bonus data is recommended.
 
