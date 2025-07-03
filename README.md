@@ -1,6 +1,6 @@
 # DSA-Second-Project-Documentation-2
 Palmora Group HR Analysis
-- Tool used Download here Power Bi [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+-  Power Bi [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 # Introduction
 The manufacturing industry has long been recognized as a sector with unique workforce
 challenges. In this report, we analyze HR data from a manufacturing company with a focus
